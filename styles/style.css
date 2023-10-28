@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/Game-Detona_Ralph/imagens/wall.png);
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    color: chocolate;
+    background:  rgb(105, 2, 50);
+    border-bottom: 5px solid rgb(100, 2, 90);
+}
+.menu-scores h2:nth-child(2), .menu-time h2:nth-child(2){
+    margin-top: 1rem;
+}
+.painel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.square{
+    background-color: rgb(121, 113, 8);
+    width: 220px;
+    height:  220px;
+    border: 2px solid black;
+}
+.enemy{
+    background-image: url(/Game-Detona_Ralph/imagens/ralph.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(77, 6, 6);
+}
+.menu-lives{
+display: flex;
+align-items: center;
+justify-content: center;
+}
