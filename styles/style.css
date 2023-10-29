@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 100vh;
     background-image: url(/Game-Detona_Ralph/imagens/wall.png);
-    background-size:contain;
+    background-size: contain;
 }
 .menu{
     display: flex;
@@ -27,8 +27,8 @@
 }
 .square{
     background-color: rgb(121, 113, 8);
-    width: 220px;
-    height:  220px;
+    width: 10rem;
+    height:  10rem;
     border: 2px solid black;
 }
 .enemy{
