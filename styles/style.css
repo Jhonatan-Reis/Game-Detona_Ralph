@@ -1,8 +1,10 @@
+
 .container{
     display: flex;
     flex-direction: column;
     height: 100vh;
     background-image: url(/Game-Detona_Ralph/imagens/wall.png);
+    background-size:contain;
 }
 .menu{
     display: flex;
